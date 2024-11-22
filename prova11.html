@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <style>
+        .quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#options {
+    list-style: none;
+    padding: 0;
+}
+
+#options li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h2 id="question"></h2>
+        <ul id="options"></ul>
+        <p id="result"></p>
+        <button id="next">Próxima</button>
+    </div>
+    <script src="prova11.js"></script>
+</body>
+</html>
